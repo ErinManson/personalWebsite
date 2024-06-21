@@ -1,46 +1,23 @@
-  
-  body {
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-    color: var(--fontColor);
-    font-family: helvetica;
-  }
-  
-  li {
-    list-style: circle;
-  }
-  
-  .list {
-    list-style: square;
-  }
-  
-  .light-theme {
-    --bg: rgb(238,174,202);
-    --bg: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-    --fontColor: var(--black);
-    --btnBg: var(--black);
-    --btnFontColor: var(--white);
-  }
-  
-  .dark-theme {
-    --bg: rgb(63,94,251);
-    --bg: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,124,1) 100%);
-    --btnBg: var(--white);
-    --btnFontColor: var(--black);
-    --fontColor: var(--green);
-  }
-  .btn {
-    color: var(--btnFontColor);
-    background-color: var(--btnBg);
-  }
-  .btn {
-    position: absolute;
-    top: 20px;
-    left: 250px;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    border: none;
-    color: var(--btnFontColor);
-    background-color: var(--btnBg);
-  }
+:root {
+  --white: #FFFFFF;
+  --black: #000000;
+}
+body {
+  background: var(--bg);
+  color: var(--fontColor);
+}
+.theme {
+  --fontColor: var(--black);
+  color: rgb(238,174,202);;
+  --bg: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,233,231,1) 100%);
+}
+h1{
+  color: var(--fontColor)
+}
+p{
+  color: var(--fontColor)
+}
+ul{
+  color: var(--fontColor)
+}
+
