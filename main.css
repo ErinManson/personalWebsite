@@ -7,20 +7,30 @@ body {
   background-repeat: no-repeat;
   height: 100%;
   color: var(--fontColor);
-  margin: 0;
   background-attachment: fixed;
-
+  font-family: 'Trebuchet MS';
+  text-align: left;
+}
+div {
+  text-align: left;
 }
 .theme {
   --fontColor: var(--black);
   --bg: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,124,1) 100%);
   text-align: center;
-}
-ul {
-  text-align: left;
+  padding-top: 30px;
 }
 h1 {
-  padding-top: 25%;
+  padding-bottom: 50px;
+  font-size: 35pt;
+  text-align: center;
+}
+a {
+  padding-right: 5%;
+  text-decoration: none;
+}
+p {
+  text-align: left;
 }
 /* Dropdown Button */
 .dropbtn {
