@@ -45,6 +45,7 @@ a {
 p {
   text-align: left;
   padding-bottom: 200px;
+  padding-right: 5%;
   font-size: 16pt;
 }
 /* Dropdown Button */
@@ -57,7 +58,6 @@ p {
   border: none;
   cursor: pointer;
 }
-
 /* Dropdown button on hover & focus */
 .dropbtn:hover, .dropbtn:focus {
   background-color: #a3216b;
