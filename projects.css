@@ -36,11 +36,6 @@ img {
   margin-bottom: 5px;
 }
 
-a {
-  padding-right: 2%;
-  text-decoration: none;
-  text-align: center;
-}
 .center {
   display: inline-block;
   margin-left: auto;
@@ -66,6 +61,7 @@ p {
   content:"";
   display:table;
   clear: both;
+  margin-bottom: 100px
 }
  
 /* Dropdown Button */
